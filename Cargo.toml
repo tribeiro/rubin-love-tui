@@ -1,0 +1,16 @@
+[package]
+name = "rubin-love-tui"
+version = "0.1.0"
+edition = "2021"
+license = "GPL-3.0-only"
+description = "A collection of TUI's for the Vera Rubin Observatory Control System, a.k.a, LSST Operations and Visualization Environment (LOVE)."
+
+[dependencies]
+chrono = "0.4.39"
+crossterm = "0.28.1"
+ratatui = "0.29.0"
+serde = "1.0.215"
+serde_derive = "1.0.215"
+serde_json = "1.0.133"
+tracing = "0.1.41"
+tungstenite = { version = "0.24.0", features = ["native-tls"] }
